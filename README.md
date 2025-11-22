@@ -1,0 +1,3 @@
+# next-starter
+
+🚀 Next starter
