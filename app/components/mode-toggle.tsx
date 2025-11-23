@@ -3,14 +3,14 @@
 import { useTheme } from 'next-themes'
 
 export function ModeToggle() {
-  const { theme, setTheme } = useTheme()
+  const { resolvedTheme, setTheme } = useTheme()
 
   function toggleDark(event: React.MouseEvent<HTMLButtonElement>) {
     const isAppearanceTransition = !window.matchMedia(
       '(prefers-reduced-motion: reduce)',
     ).matches
 
-    const newTheme = theme === 'dark' ? 'light' : 'dark'
+    const newTheme = resolvedTheme === 'dark' ? 'light' : 'dark'
 
     if (
       !isAppearanceTransition ||

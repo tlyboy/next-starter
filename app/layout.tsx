@@ -30,7 +30,7 @@ export default function RootLayout({
               <div className="flex items-center gap-2 text-xl">
                 <a
                   className="i-carbon-logo-github icon-btn"
-                  href="https://github.com/tlyboy/react-starter"
+                  href="https://github.com/tlyboy/next-starter"
                   target="_blank"
                   rel="noopener noreferrer"
                 ></a>
