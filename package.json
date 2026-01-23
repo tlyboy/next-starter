@@ -26,6 +26,7 @@
     "prettier": "^3.6.2",
     "prettier-plugin-tailwindcss": "^0.7.1",
     "tailwindcss": "^4",
+    "babel-plugin-react-compiler": "latest",
     "typescript": "^5"
   },
   "packageManager": "pnpm@10.22.0",
