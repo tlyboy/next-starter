@@ -6,7 +6,6 @@ This file provides guidance to AI agents when working with code in this reposito
 
 - **Dev server**: `pnpm dev`
 - **Build**: `pnpm build`
-- **Lint**: `pnpm lint`
 - **Start production**: `pnpm start`
 
 ## Tech Stack
